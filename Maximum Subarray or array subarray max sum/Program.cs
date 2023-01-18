@@ -1,13 +1,15 @@
 ﻿
+using System;
+
 namespace Maximum_Subarray_or_array_subarray_max_sum
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Program p = new Program();
-            var nums = new int[] { -4, 2, -5, 1, 2, 3, 6, -5, 1 }; // [-2,-9,-4,-1,0,-7,-5,-3]
-            System.Console.WriteLine(p.MaxSubArray(nums));
+            Solution p = new Solution();
+            var nums = new int[] { -4, 2, -5, 1, 2, 3, 6, -5, 1 }; // [-2,-9,-4,-1,0,-7,-5,-3] // -4, 2, -5, 1, 2, 3, 6, -5, 1
+      System.Console.WriteLine(p.MaxSubArray(nums));
         }
 
             public class Solution {
